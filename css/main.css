@@ -2,47 +2,10 @@
 	text-align: center;
 }
 
-body{
-  overflow: hidden;
-  background: #444;
-}
-.rap{
-  position: absolute;
-  top: 40%;
-  left: 45%;
-  transform-style: preserve-3d;
+.section{
+	text-align: center;
 }
 
-@for $i from 1 through 50{
-  .wtf:nth-child(#{$i}){
-    width: 70px;
-    height: 100px;
-    background: rgba(0,0,0,.2);
-    box-shadow: 0 0 1px rgba(0,0,0,.7) inset;
-    position: absolute;
-    transform: rotateX(-35deg) rotateY($i*7.2deg) translateX(70px);
-  
-  &:nth-child(#{$i}):before,
-  &:nth-child(#{$i}):after{ 
-    content:'';
-    width: 100px;
-    height: 25px;
-    background: adjust-hue(rgba(255,0,0,.5), $i*50%);
-    border-radius: 0%;
-    box-shadow: 0 0 7px #000 inset;
-    position: absolute;
-    top: -50px;
-    transform-origin: 50% 100px;
-    animation: after 5s linear infinite;
-      }
-  &:nth-child(#{$i}):after{
-    background: adjust-hue(rgba(255,255,0,.5), $i*50%);
-    animation: after 5s -2.5s linear infinite;
-     }
-   }
-}
-
-@keyframes after{
-  0%{transform: rotate(-1turn);
-  }
+.section2{
+	
 }
