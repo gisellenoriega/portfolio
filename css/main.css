@@ -39,9 +39,21 @@
   font-family: 'Exo 2', sans-serif;
   font-size: 20px;
   color: green;
-  text-align: left;
+  text-align: right;
   margin: 0px 10px 10px 90px;
   width: 100px;
+  display: inline-block;
+}
+
+.third {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  color: green;
+  text-align: right;
+  margin: 0px 10px 10px 90px;
+  width: 100px;
+  display: inline-block;
+  padding-right: 60px;
 }
 
 a:link {
@@ -55,16 +67,28 @@ a:visited {
 }
 
 a:hover {
-  color: green;
+  color: red;
   background-color: black ;
   text-decoration: none;
 }
 
 a:active {
-  color: green;
+  color: red;
   background-color: black;
 }
 
 .audio {
   opacity: 0;
+}
+
+.paragraph {
+  background-color: black;
+  color: red;
+  font-family: 'Exo 2', sans-serif;
+}
+
+#carousel-example-generic {
+  width: 800px;
+  margin: 0 20%;
+  height: 455px;
 }
