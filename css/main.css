@@ -6,7 +6,11 @@
 	background-color: black;
 } 
 
-.about-me {
+.body3 {
+  background-color: black;
+}
+
+.home {
   color: green;
   text-align: center;
   font-family: 'Lily Script One', cursive;
@@ -14,6 +18,12 @@
 
 .aboutme {
   color: red;
+  text-align: center;
+  font-family: 'Lily Script One', cursive;
+}
+
+.contact {
+  color: blue;
   text-align: center;
   font-family: 'Lily Script One', cursive;
 }
@@ -39,8 +49,8 @@
   font-family: 'Exo 2', sans-serif;
   font-size: 20px;
   color: green;
-  text-align: right;
-  margin: 0px 10px 10px 90px;
+  text-align: center;
+  margin: 0px 0px 0px 255px;
   width: 100px;
   display: inline-block;
 }
@@ -85,6 +95,7 @@ a:active {
   background-color: black;
   color: red;
   font-family: 'Exo 2', sans-serif;
+  padding: 40px 30px 30px 40px; 
 }
 
 #carousel-example-generic {
